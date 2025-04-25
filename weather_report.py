@@ -77,11 +77,6 @@ def get_daily_love():
     daily_love = sentence
     return daily_love
 
-def yby:
-    if weather[2]=="小雨" or weather[2]=="中雨" or weather[2]=="大雨":
-        return "记得来接我"
-    else:
-        return "不许来接我" 
 
 def send_weather(access_token, weather):
     # touser 就是 openID
@@ -98,8 +93,6 @@ def send_weather(access_token, weather):
         "template_id": weather_template_id.strip(),
         "url": "http://47.110.36.72",
         "data": {
-            "iff":{
-                "value":yby()
             "date": {
                 "value": today_str
             },
