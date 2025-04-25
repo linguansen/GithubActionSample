@@ -78,7 +78,7 @@ def get_daily_love():
     return daily_love
 
 def yby:
-    if weather[2]=="小雨" or weather[2]=="中雨" or weather[2]=="大雨"：
+    if weather[2]=="小雨" or weather[2]=="中雨" or weather[2]=="大雨":
         return "记得来接我"
     else：
         return "不许来接我" 
